@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Fairy</name>
+        <description>5e homebrew</description>
+        <author url="https://www.dandwiki.com/wiki/Fairy_(5e_Race)">D&amp; WIKI</author>
+    </info>
+
+    <element name="Fairy" type="Race" source="D&amp;D WIKI" id="ID_WIKI_RACE_FAIRY">
+        <description>
+            <h4>PHYSICAL DESCRIPTION</h4>
+            <p>Fairies rarely reach over 1 foot tall, and their wings come in many designs and patterns, ranging from butterfly to beetle. They often look like tiny elves, with pointed ears and ranging skin tones. They carry the normal array of human skin tones as well as light shades of the rest of the spectrum of colors, coming from light shades of red to copper and bronze. They can even carry small attributes of the insect family they hail from, including antennae, fluff, and the wing styles. Their eyes often look like a molten liquid but the pupils can be visible if you can ever get a close enough look. They love vibrantly colored clothes or shiny metal armor, something that speaks about their personality on a level that other pixies and some people can understand.</p>
+            <h4>HISTORY</h4>
+            <p>Fairies are nature's immature answer to elves. They are chaotic even with their laws. They are shy and reclusive and adore playing tricks and pranks, seldom bothering outsiders otherwise unless their curiosity gets the better of them.</p>
+            <h4>SOCIETY</h4>
+            <p>n the world, fairies make their homes in deep forests or hidden grottos beneath the hills of the Moonshae Isles, far beyond the sight of other humanoids. In these places, fairies cast their shimmering lights to color their domains in incandescent hues, gradually shifting from soft red to bright yellow to deep violet and back again. Some say that the realms of the fairies are the places where rainbows begin and end, and those rainbows are fairy roads emanating from the light of the kingdoms they connect, which can be seen by mortals only when the sun shines through the rain. Though fairies prefer to keep out of sight, they can be found almost anywhere in the Feywild. As intrinsically magical as they are whimsical, fairies enhance the world around them with their presence.</p>
+            <h4>DRYAD NAMES</h4>
+            <p>Fairies will often take on the names of humans or elves, and sometimes those of the plants and trees that they find their homes in.</p>
+
+            <h4>FAIRY TRAITS</h4>
+            <p>They are shy and reclusive flying fey creature that adores playing tricks and pranks on others.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2.<br />
+                <span class="feature">Age.</span>It's unknown how long a fairy actually lives, however, it's speculated they reach maturity at the same time as a human child and can live to be an average of at least 150 years old.<br />
+                <span class="feature">Alignment.</span>Fairies can be of any alignment but tend to lean more towards chaotic because of their playful trickster nature.<br />
+                <span class="feature">Size.</span>Pixies hardly over a foot tall and weigh next to nothing. Your size is Tiny.<br />
+                <span class="feature">Speed.</span>Your base walking speed of 10 feet. You have a flying speed of 30 feet and you can hover no more than 10 feet off the ground if you are more than 10 feet off the ground when you end your turn you will fall until you are within the 10 feet of the ground.<br />
+                <span class="feature">Darkvision.</span>You're accustomed to living in forests and in undergrowths with dim or darker lighting. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
+                <span class="feature">Fey Ancestry.</span>You have advantage on saving throws against being charmed and magic can’t put you to sleep.<br />
+                <span class="feature">Invisibility.</span>You can cast the invisibility spell 1 with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Charisma is your spellcasting ability for this spell.<br />
+                <span class="feature">Shrink.</span>You can touch an object that is sized for a Medium or Small creature and shrink it to a size appropriate for your tiny hands. If the object is a weapon, decrease the damage die by one size unless it has the finesse or light weapon properties (the versatile damage of that weapon also decreases by one size). You can touch multiple objects if they are the same type. At 3rd, 9th, and 15th levels, you can choose one weapon type you are proficient in, the damage die does not decrease whenever you use Shrink on it.<br />
+                <span class="feature">Tiny Hands.</span>You have disadvantage on Athletics checks, but you are proficient in the Sleight of Hand skill.<br />
+                <span class="feature">Languages.</span>You can speak, read, and write Common,Elvish, and Sylvan.<br />
+            </p>
+        </description>
+        <rules>
+            <stat name="Dexterity" value="2" />
+            <select type="Ability Score Improvement" name="Fairy" supports="ID_INTERNAL_ASI_DEXTERITY" />
+            <grant type="Size" id="ID_SIZE_TIN" />
+            <stat name="Speed" value="10" bonus="base" />
+            <grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_FAIRY_DARKVISION" />
+            <grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_FAIRY_FEY_ANCESTRY" />
+            <grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_FAIRY_INVISIBILITY" />
+            <grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_FAIRY_SHRINK" />
+            <grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_FAIRY_TINY_HANDS" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+            <grant type="Language" id="ID_LANGUAGE_ELVISH" />
+        </rules>
+    </element>
+    <element name="Darkvision" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_FAIRY_DARKVISION">
+        <description>
+            <p>You're accustomed to living in forests and in undergrowths with dim or darker lighting. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+        </description>
+        <sheet>
+            <description>You're accustomed to living in forests and in undergrowths with dim or darker lighting. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</description>
+        </sheet>
+    </element>
+    <element name="Fey Ancestry" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_FAIRY_FEY_ANCESTRY">
+        <description>
+            <p>You have advantage on saving throws against being charmed and magic can’t put you to sleep.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against being charmed and magic can’t put you to sleep.</description>
+        </sheet>
+    </element>
+    <element name="Invisibility" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_FAIRY_INVISIBILITY">
+        <description>
+            <p>Once you reach 3rd level, you can cast the invisibility spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Charisma is your spellcasting ability for this spell.</p>
+        </description>
+        <sheet>
+            <description>Once you reach 3rd level, you can cast the invisibility spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Charisma is your spellcasting ability for this spell.</description>
+        </sheet>
+    </element>
+    <element name="Shrink" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_FAIRY_SHRINK">
+        <description>
+            <p>You can touch an object that is sized for a Medium or Small creature and shrink it to a size appropriate for your tiny hands. If the object is a weapon, decrease the damage die by one size unless it has the finesse or light weapon properties (the versatile damage of that weapon also decreases by one size). You can touch multiple objects if they are the same type. At 3rd, 9th, and 15th levels, you can choose one weapon type you are proficient in, the damage die does not decrease whenever you use Shrink on it.</p>
+        </description>
+        <sheet>
+            <description>You can touch an object that is sized for a Medium or Small creature and shrink it to a size appropriate for your tiny hands. If the object is a weapon, decrease the damage die by one size unless it has the finesse or light weapon properties (the versatile damage of that weapon also decreases by one size). You can touch multiple objects if they are the same type. At 3rd, 9th, and 15th levels, you can choose one weapon type you are proficient in, the damage die does not decrease whenever you use Shrink on it.</description>
+        </sheet>
+    </element>
+    <element name="Tiny Hands" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_FAIRY_TINY_HANDS">
+        <description>
+            <p>You have disadvantage on Athletics checks, but you are proficient in the Sleight of Hand skill.</p>
+        </description>
+        <sheet>
+            <description>You have disadvantage on Athletics checks, but you are proficient in the Sleight of Hand skill.</description>
+        </sheet>
+    </element>
+</elements>
