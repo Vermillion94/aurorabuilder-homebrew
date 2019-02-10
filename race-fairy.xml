@@ -104,7 +104,7 @@
     </rules>
     </element>
 
-  <element name="Butterfly" type="Sub Race" source="D&amp;D WIKI"  id="ID_SUB_RACE_BUTTERFLY_FAIRY">
+  <element name="Butterfly Fairy" type="Sub Race" source="D&amp;D WIKI"  id="ID_SUB_RACE_BUTTERFLY_FAIRY">
     <supports>Fairy</supports>
     <requirements />
     <description>
@@ -130,7 +130,7 @@
     </sheet>
   </element>
 
-  <element name="Dragonfly" type="Sub Race" source="D&amp;D WIKI"  id="ID_SUB_RACE_DRAGONFLY_FAIRY">
+  <element name="Dragonfly Fairy" type="Sub Race" source="D&amp;D WIKI"  id="ID_SUB_RACE_DRAGONFLY_FAIRY">
     <supports>Fairy</supports>
     <requirements />
     <description>
@@ -156,7 +156,7 @@
     </sheet>
   </element>
 
-    <element name="Moth" type="Sub Race" source="D&amp;D WIKI"  id="ID_SUB_RACE_MOTH_FAIRY">
+    <element name="Moth Fairy" type="Sub Race" source="D&amp;D WIKI"  id="ID_SUB_RACE_MOTH_FAIRY">
     <supports>Fairy</supports>
     <requirements />
     <description>
@@ -182,7 +182,7 @@
     </sheet>
   </element>
 
-    <element name="Beetle" type="Sub Race" source="D&amp;D WIKI"  id="ID_SUB_RACE_BEETLE_FAIRY">
+    <element name="Beetle Fairy" type="Sub Race" source="D&amp;D WIKI"  id="ID_SUB_RACE_BEETLE_FAIRY">
     <supports>Fairy</supports>
     <requirements />
     <description>
