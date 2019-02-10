@@ -4,6 +4,9 @@
         <name>Fairy</name>
         <description>5e homebrew</description>
         <author url="https://www.dandwiki.com/wiki/Fairy_(5e_Race)">D&amp; WIKI</author>
+        <update version="0.0.1">
+			<file name="race-fairy.xml" url="https://github.com/Vermillion94/aurorabuilder-homebrew/edit/master/race-fairy.xml" />
+		</update>
     </info>
 
     <element name="Fairy" type="Race" source="D&amp;D WIKI" id="ID_WIKI_RACE_FAIRY">
